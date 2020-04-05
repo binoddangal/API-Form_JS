@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>login</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+    .login-container {
+      width: 1170px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+
+<body>
+  <ul>
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../SignUp/signup.html">SignUp</a></li>
+    <li><a href="login.html">LogIn</a></li>
+  </ul>
+  <br><br>
+  <div class="login-container">
+    <form class="login-form">
+
+
+      <div class="row">
+        <div class="col-6 left-content">
+          <h1 class="heading">Login <small>Here</small><br></h1>
+          <div class="form-group">
+            <input type="email" name="email" placeholder="Email" class="form-control form-control-lg"
+            onclick="change(this.name,this.value)">
+          </div>
+          <div class="form-group">
+
+            <input type="password" name="password" class="form-control form-control-lg" placeholder="Password" 
+            onclick="change(this.name,this.value)" >
+          </div>
+
+          <div class="row center-div">
+            <div class="col">
+              <div class="form-group">
+                <button class="btn btn-primary btn-lg sub-btn" id="logbtn" name="login">Login</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-6 right-content">
+
+          <img src="../images/Cartoon-vector-illustration-of-man-working-with-computer.jpg" class="image" />
+        </div>
+      </div>
+
+
+
+    </form>
+
+  </div>
+</body>
+<script src="js/main.js"></script>
+
+</html>
